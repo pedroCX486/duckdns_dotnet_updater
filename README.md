@@ -1,4 +1,4 @@
-# DuckDNS IP Updater
+# DuckDNS .NET IP Updater
 
 An small .NET6 app to update your IP on DuckDNS.
 

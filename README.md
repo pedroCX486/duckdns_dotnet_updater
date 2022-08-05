@@ -1,15 +1,16 @@
 # DuckDNS IP Updater
 
-An small .NET Core app to update your IP on DuckDNS.
+An small .NET6 app to update your IP on DuckDNS.
 
 
 ## What you should know:
 
-- You need to change the "token" string to your DuckDNS token.
-- You need to change the "domain" string, you just need to put the domain name (eg. yourdomain not yourdomain.duckdns.org).
-- Builds for various platforms/targets can be done using the publish profiles.
+- You pass as arguments to the application the information needed, eg.: duckdns.exe your-duckdns-token subdomainname
+- If you want the application to run indefinitely every x amount of minutes, then: duckdns.exe your-duckdns-token subdomainname loop 10
+- Publish profiles are available to publish to most desktop platforms.
+- Requires .NET6
 
 
-## Post notes:
+## License
 
 Licensed under the WTFPL.

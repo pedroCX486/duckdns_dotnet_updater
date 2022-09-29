@@ -14,4 +14,4 @@ An small .NET6 app to update your IP on DuckDNS.
 
 ## License
 
-Licensed under the WTFPL.
+Licensed under the ISC.
